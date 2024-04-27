@@ -1,6 +1,9 @@
+<h1 style="text-align: center;">Fake api rick y morty</h1>
 @for(p of people; track p){
     <div>Nombre:{{p.name}}</div>
     <img src="{{p.image}}" alt="">
     <div>Estado: {{p.status}}</div>
-    <br>
+    <button style=" background-color: rgb(214, 214, 10);">Editar</button>
+    <button style=" background-color: rgb(117, 21, 9); color: white;">Borrar</button>
+    <hr>
 }
